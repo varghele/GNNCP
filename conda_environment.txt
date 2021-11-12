@@ -1,0 +1,15 @@
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c conda-forge
+pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html
+pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html
+pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html
+pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html
+pip install torch-geometric
+
+conda install seaborn
+
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge scikit-learn
+
+conda install -c conda-forge mdtraj
+conda install -c conda-forge tensorboard
+conda install -c omnia openmm
