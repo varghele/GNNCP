@@ -1,0 +1,1 @@
+Here, all the files from the trajectory will be saved. This will take approx. 30GB for 1k frames and 1k molecules.
